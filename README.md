@@ -10,28 +10,28 @@ This repo is for a screenformatter implemented in 4 languages. (Ada, Cobol, Fort
 
 ## For Ada:
 -To compile:
--gnatmake formatter.adb
+`gnatmake formatter.adb`
 
 -To run:
--formatter {absolute filepath}
+`formatter {absolute filepath}`
 
 ## For Cobol:
 -To compile:
--cobc -x formatter.cob
+`cobc -x formatter.cob`
 
 -To run:
--./formatter {absolute filepath}
+`./formatter {absolute filepath}`
 
 ## For Fortran:
 -To compile:
--gfortran formatter.f95
+`gfortran formatter.f95`
 
 -To run:
--./a.out {absolute filepath}
+`./a.out {absolute filepath}`
 
 ## For Lisp:
 -To compile and run:
--sbcl --script formatter.lisp {absolute filepath}
+`sbcl --script formatter.lisp {absolute filepath}`
 
 
 
