@@ -5,8 +5,7 @@ This repo is for a screenformatter implemented in 4 languages. (Ada, Cobol, Fort
 **Author: Nolan Donley**
 
 **Input**: any text file
-**Output**: text file formatter to maximum 60 chars per Line
-     and also the line with most and least words
+**Output**: text file formatter to maximum 60 chars per Line and also the line with most and least words
 
 ## For Ada:
 -To compile:
@@ -52,11 +51,11 @@ gnatlink formatter.ali
 
 []$ formatter /home/donley_ns/screenformatter/testfile.txt
 
-        1  The quick brown fox jumped over the lazy dog and then ran to
-        2  the hen-house where he ate the rooster and all of the
-        3  chickens. The brown fox then made a dessert of the white
-        4  protein packets with the hard shell and creamy yellow
-        5  center.
+                1  The quick brown fox jumped over the lazy dog and then ran to
+                2  the hen-house where he ate the rooster and all of the
+                3  chickens. The brown fox then made a dessert of the white
+                4  protein packets with the hard shell and creamy yellow
+                5  center.
 
-LONG    1           The quick brown fox jumped over the lazy dog and then ran to
-SHORT   5           center.  
+        LONG    1           The quick brown fox jumped over the lazy dog and then ran to
+        SHORT   5           center.  
